@@ -9,9 +9,13 @@ class Rectangle:
     def get_height(self):
         return self.b
 
-    # Метод, рассчитывающий площадь
     def get_area(self):
-        return self.a * self.b
+        return str(self.a * self.b)
+
+    def get_perimeter(self):
+        return str(self.a*2 + self.b*2)
+
+
 
 
 class Square:
